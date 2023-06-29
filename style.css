@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(11, 19, 60);
+}
+.app{
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: rgb(10, 9, 9);
+    font-weight: 600;
+    border-bottom: 1px solid rgb(15, 13, 13);
+    padding-bottom: 30px;
+}
+.quiz{
+    padding:20px 0 ;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+.btn{
+    background: rgb(255, 248, 248);
+    color: rgb(6, 6, 6);
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: black;
+    color: beige;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background: rgb(32, 32, 81);
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display:none;
+}
+.correct{
+    background: rgb(175, 254, 182);
+}
+.incorrect{
+    background:rgb(234, 141, 141);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
