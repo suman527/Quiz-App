@@ -3,7 +3,7 @@ This is a simple quiz app built using HTML, CSS, and JavaScript. It allows users
 
 ## Deployed Link
 ```
-https://scintillating-pothos-0fca38.netlify.app/
+https://quiz-app-webb.netlify.app/
 ```
 
 ## Features
